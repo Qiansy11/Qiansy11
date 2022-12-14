@@ -4,3 +4,5 @@
 HOMEWORK4 光栅动画
 
 homework4 动态小球生成红白图像
+
+week5 方块画笔效果图像生成
