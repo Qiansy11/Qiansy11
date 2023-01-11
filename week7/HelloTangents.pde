@@ -50,7 +50,7 @@ void draw(){
   for(int i=0;i<points.length;i++){
     pushMatrix();
     translate(points[i].x, points[i].y);
-    ellipse(0, 0, random(5, 10),random(5, 10));
+    ellipse(0, 0, random(5, 10),random(5, 10));//rect(0, 0, random(5, 10),random(5, 10))
     line(0, 0, tangents[i].x, tangents[i].y);
     popMatrix();  
   }
